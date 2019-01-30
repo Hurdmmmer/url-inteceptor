@@ -1,0 +1,22 @@
+{
+  "urls": [
+    {
+      "/test/**": {
+        "max_times": 10,
+        "time_frequency": 100
+      }
+    },
+    {
+      "/abc": {
+        "max_times": 5,
+        "time_frequency": 10,
+        "distinguish_users" : 1
+      }
+    }
+  ],
+  "error_page": "error.html",
+  "error_msg": {
+    "code": 500,
+    "msg": "The system is busy, please try again later."
+  }
+}
